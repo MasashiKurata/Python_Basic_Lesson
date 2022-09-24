@@ -46,7 +46,9 @@
     <Compile Include="list.py" />
     <Compile Include="dict.py" />
     <Compile Include="list_tuple_change.py" />
+    <Compile Include="subplot.py" />
     <Compile Include="tuple.py" />
+    <Compile Include="matplot.py" />
     <Compile Include="_datetime.py" />
     <Compile Include="file_read_dataframe.py" />
     <Compile Include="zip.py" />
