@@ -13,14 +13,13 @@ for i in range(2,110,2):
     num +=1
 
 # 参考:C言語の場合
-'''
-#include <stdio.h>
-int num=0
-for (int i=0;i<110;i=i+2) {
-    printf("%d %d\n",num,i);
-    num++;    
-}
-'''
+#
+##include <stdio.h>
+#int num=0
+#for (int i=0;i<110;i=i+2) {
+#    printf("%d %d\n",num,i);
+#    num++;    
+#}
 
 #参考:辞書からの値取り出し
 kakaku={'apple':100,'banana':110,'orange':150}
