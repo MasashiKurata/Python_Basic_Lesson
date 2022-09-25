@@ -1,5 +1,12 @@
+# slide 46
+menu = ['soup','rice','cake']
+menu
+
+#---- listQl ----
+
 tmp_list = []
 tmp_list = [4,2,3,1]
+
 
 #list‚É‚Í‚È‚ñ‚Å‚à‘ã“ü‚Å‚«‚é
 # (1)•¶š—ñ‚Æ”’l‚ª¬İ‚µ‚Ä‚àOK

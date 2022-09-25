@@ -44,11 +44,32 @@
     <Compile Include="check_BMI.py" />
     <Compile Include="for.py" />
     <Compile Include="while.py" />
+    <Compile Include="file_write_read.py" />
     <Compile Include="_datetime.py" />
     <Compile Include="file_read_dataframe.py" />
     <Compile Include="zip.py" />
     <Compile Include="enumrate.py" />
     <Compile Include="dataframe.py" />
+    <Compile Include="演習問題回答\answer01.py" />
+    <Compile Include="演習問題回答\answer02.py" />
+    <Compile Include="演習問題回答\answer03.py" />
+    <Compile Include="演習問題回答\answer04.py" />
+    <Compile Include="演習問題回答\answer05.py" />
+    <Compile Include="演習問題回答\answer06.py" />
+    <Compile Include="演習問題回答\answer07.py" />
+    <Compile Include="演習問題回答\answer08.py" />
+    <Compile Include="演習問題回答\answer09.py" />
+    <Compile Include="演習問題回答\answer10.py" />
+    <Compile Include="演習問題回答\answer11.py" />
+    <Compile Include="演習問題回答\answer12.py" />
+    <Compile Include="演習問題回答\answer13.py" />
+    <Compile Include="演習問題回答\answer14.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="演習問題回答\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="titanic.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
