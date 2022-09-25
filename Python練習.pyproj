@@ -5,7 +5,8 @@
     <ProjectGuid>bbf20bda-6194-4920-b991-d1d26914c0f3</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>file_read_dataframe.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,22 +35,34 @@
     </Interpreter>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="check_BMI2.py" />
-    <Compile Include="list.py" />
-    <Compile Include="dict.py" />
-    <Compile Include="list_tuple_change.py" />
-    <Compile Include="subplot.py" />
-    <Compile Include="tuple.py" />
-    <Compile Include="matplot.py" />
-    <Compile Include="check_BMI.py" />
-    <Compile Include="for.py" />
-    <Compile Include="while.py" />
-    <Compile Include="file_write_read.py" />
-    <Compile Include="_datetime.py" />
-    <Compile Include="file_read_dataframe.py" />
-    <Compile Include="zip.py" />
-    <Compile Include="enumrate.py" />
-    <Compile Include="dataframe.py" />
+    <Compile Include="Sample%28kurata%29\check_BMI.py" />
+    <Compile Include="Sample%28kurata%29\check_BMI2.py" />
+    <Compile Include="練習 - Copy %2810%29.py" />
+    <Compile Include="練習 - Copy %282%29.py" />
+    <Compile Include="練習 - Copy %283%29.py" />
+    <Compile Include="練習 - Copy %284%29.py" />
+    <Compile Include="練習 - Copy %285%29.py" />
+    <Compile Include="練習 - Copy %286%29.py" />
+    <Compile Include="練習 - Copy %287%29.py" />
+    <Compile Include="練習 - Copy %288%29.py" />
+    <Compile Include="練習 - Copy %289%29.py" />
+    <Compile Include="練習 - Copy.py" />
+    <Compile Include="練習.py" />
+    <Compile Include="Sample%28kurata%29\dataframe.py" />
+    <Compile Include="Sample%28kurata%29\dict.py" />
+    <Compile Include="Sample%28kurata%29\enumrate.py" />
+    <Compile Include="Sample%28kurata%29\file_read_dataframe.py" />
+    <Compile Include="Sample%28kurata%29\file_write_read.py" />
+    <Compile Include="Sample%28kurata%29\for.py" />
+    <Compile Include="Sample%28kurata%29\list - Copy.py" />
+    <Compile Include="Sample%28kurata%29\list.py" />
+    <Compile Include="Sample%28kurata%29\list_tuple_change.py" />
+    <Compile Include="Sample%28kurata%29\matplot.py" />
+    <Compile Include="Sample%28kurata%29\subplot.py" />
+    <Compile Include="Sample%28kurata%29\tuple.py" />
+    <Compile Include="Sample%28kurata%29\while.py" />
+    <Compile Include="Sample%28kurata%29\zip.py" />
+    <Compile Include="Sample%28kurata%29\_datetime.py" />
     <Compile Include="演習問題回答\answer01.py" />
     <Compile Include="演習問題回答\answer02.py" />
     <Compile Include="演習問題回答\answer03.py" />
@@ -66,9 +79,11 @@
     <Compile Include="演習問題回答\answer14.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Sample%28kurata%29\" />
     <Folder Include="演習問題回答\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Sample%28kurata%29\titanic.csv" />
     <Content Include="titanic.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
