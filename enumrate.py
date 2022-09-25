@@ -1,12 +1,11 @@
 #for i in range(2,110,2):
 #    print(i,end=',')
-# ↑何回Forループが回っているか分からない。
 
 #numを見れば何回for文が回っているか確認できる
 for num,i in enumerate(range(2,110,2)):
     print(num,i)
 
-#以下でも同じ
+#以下でも同じ(C言語風)
 num=0
 for i in range(2,110,2):
     print(num,i)

@@ -42,6 +42,8 @@
     <Compile Include="tuple.py" />
     <Compile Include="matplot.py" />
     <Compile Include="check_BMI.py" />
+    <Compile Include="for.py" />
+    <Compile Include="while.py" />
     <Compile Include="_datetime.py" />
     <Compile Include="file_read_dataframe.py" />
     <Compile Include="zip.py" />
