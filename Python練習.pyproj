@@ -32,15 +32,6 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
-    <Interpreter Include="env_sample\">
-      <Id>env_sample</Id>
-      <Version>3.9</Version>
-      <Description>env_sample (Python 3.9 (64-bit))</Description>
-      <InterpreterPath>Scripts\python.exe</InterpreterPath>
-      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
-      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
-      <Architecture>X64</Architecture>
-    </Interpreter>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="check_BMI2.py" />
@@ -50,7 +41,7 @@
     <Compile Include="subplot.py" />
     <Compile Include="tuple.py" />
     <Compile Include="matplot.py" />
-    <Compile Include="check_bmi.py" />
+    <Compile Include="check_BMI.py" />
     <Compile Include="_datetime.py" />
     <Compile Include="file_read_dataframe.py" />
     <Compile Include="zip.py" />

@@ -1,4 +1,4 @@
-﻿def check_bmi(bmi):
+﻿def check(bmi):
     if  bmi<18.5:
         return('低体重')
     elif 18.5 <= bmi < 25:
