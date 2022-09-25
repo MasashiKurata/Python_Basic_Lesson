@@ -34,7 +34,7 @@ data['判定'] = ""
 data['判定'] = bmi.apply(check_BMI.check)#全部の行に関数を適用して結果を取得する
 print(data)
 
-#data['BMI']=bmi
+data['BMI']=bmi
 #plt.bar(data['名前'],data['BMI'])
 #plt.show()
 
@@ -46,3 +46,7 @@ print(data)
 #0.5～0.7未満：相関がある
 #0.7～0.9未満：強い相関
 #0.9以上：非常に強い相関
+
+# グラフ表示
+#plt.plot(data.index,data['BMI'])
+#plt.show()
