@@ -20,7 +20,7 @@ import check_BMI #他のソースから関数を呼ぶ
 # for debug
 #print(check_BMI.check(100))
 
-data = pd.read_csv(r"C:\Users\user\Desktop\Medical_List2.csv",encoding='utf-8')
+data = pd.read_csv("Medical_List2.csv",encoding='utf-8')
 bmi = round(data['体重']/((data['身長']/100)**2),1)
 
 # 方法1 (1行毎に判定して値を変更)

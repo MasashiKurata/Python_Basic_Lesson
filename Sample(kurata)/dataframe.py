@@ -13,7 +13,7 @@ d = {"0":['a1', 'a2', 'a3']}
 df2 = pd.DataFrame(d)
 
 #ファイルから読み込む (1)
-data = pd.read_csv(r"C:\Users\user\Desktop\Medical_List.csv",encoding='utf-8')
+data = pd.read_csv(r"Medical_List.csv",encoding='utf-8')
 data['名前']
 data[['身長','体重']]
 data['身長'].sum()
