@@ -50,6 +50,7 @@
     <Compile Include="zip.py" />
     <Compile Include="enumrate.py" />
     <Compile Include="dataframe.py" />
+    <Compile Include="モジュール1.py" />
     <Compile Include="演習問題回答\answer01.py" />
     <Compile Include="演習問題回答\answer02.py" />
     <Compile Include="演習問題回答\answer03.py" />
@@ -69,6 +70,9 @@
     <Folder Include="演習問題回答\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Medical_List.csv" />
+    <Content Include="Medical_List2.csv" />
+    <Content Include="Medical_List_None.csv" />
     <Content Include="titanic.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

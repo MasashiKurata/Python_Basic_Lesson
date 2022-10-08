@@ -1,0 +1,2 @@
+#encoding:cp932
+print("‚±‚ñ‚É‚¿‚Í")
