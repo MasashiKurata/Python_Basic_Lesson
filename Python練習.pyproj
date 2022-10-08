@@ -37,17 +37,6 @@
   <ItemGroup>
     <Compile Include="Sample%28kurata%29\check_BMI.py" />
     <Compile Include="Sample%28kurata%29\check_BMI2.py" />
-    <Compile Include="練習 - Copy %2810%29.py" />
-    <Compile Include="練習 - Copy %282%29.py" />
-    <Compile Include="練習 - Copy %283%29.py" />
-    <Compile Include="練習 - Copy %284%29.py" />
-    <Compile Include="練習 - Copy %285%29.py" />
-    <Compile Include="練習 - Copy %286%29.py" />
-    <Compile Include="練習 - Copy %287%29.py" />
-    <Compile Include="練習 - Copy %288%29.py" />
-    <Compile Include="練習 - Copy %289%29.py" />
-    <Compile Include="練習 - Copy.py" />
-    <Compile Include="練習.py" />
     <Compile Include="Sample%28kurata%29\dataframe.py" />
     <Compile Include="Sample%28kurata%29\dict.py" />
     <Compile Include="Sample%28kurata%29\enumrate.py" />
