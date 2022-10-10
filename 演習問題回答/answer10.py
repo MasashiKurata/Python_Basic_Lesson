@@ -1,34 +1,34 @@
-
+ï»¿
 import random
 month = random.randint(1, 12)
 
-#‰½ŒÌ‚©H‚ª‚È‚¢
+#ä½•æ•…ã‹ç§‹ãŒãªã„
 if month <= 2:
-    print("“~",month)
+    print("å†¬",month)
 elif month <= 5:
-    print("t",month)
+    print("æ˜¥",month)
 elif month <= 8:
-    print("‰Ä",month)
+    print("å¤",month)
 elif month == 12:
-    print("“~",month)
+    print("å†¬",month)
 
 
-#‹Gß‚ğ”»’f‚·‚éŠÖ”‚ğì¬‚·‚é (H‚à’Ç‰Á)
+#å­£ç¯€ã‚’åˆ¤æ–­ã™ã‚‹é–¢æ•°ã‚’ä½œæˆã™ã‚‹ (ç§‹ã‚‚è¿½åŠ )
 def check_kisetsu(month):
     if month <= 2:
-        return("“~")
+        return("å†¬")
     elif month <= 5:
-        return("t")
+        return("æ˜¥")
     elif month <= 8:
-        return("‰Ä")
+        return("å¤")
     elif month <= 11:
-        return("H")
+        return("ç§‹")
     elif month == 12:
-        return("“~")
+        return("å†¬")
     else:
         return("err")
 
-#ŠÖ”‚Å”»’f‚·‚é
+#é–¢æ•°ã§åˆ¤æ–­ã™ã‚‹
 check_kisetsu(1)
 check_kisetsu(5)
 check_kisetsu(8)

@@ -63,6 +63,7 @@
     <Compile Include="演習問題回答\answer11.py" />
     <Compile Include="演習問題回答\answer12.py" />
     <Compile Include="演習問題回答\answer13.py" />
+    <Compile Include="演習問題回答\answer14_heatmap.py" />
     <Compile Include="演習問題回答\answer14.py" />
     <Compile Include="練習1.py" />
     <Compile Include="練習2.py" />

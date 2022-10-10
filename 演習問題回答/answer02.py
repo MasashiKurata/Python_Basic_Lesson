@@ -1,4 +1,4 @@
-
-A='‚±‚ñ‚É‚¿‚Í'
+ï»¿
+A='ã“ã‚“ã«ã¡ã¯'
 B='python'
 print(A+B)
