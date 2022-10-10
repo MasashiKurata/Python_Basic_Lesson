@@ -48,3 +48,8 @@ titanic_data[titanic_data['Survived']==1]['Survived'].count()
 
 titanic_data.describe()
 
+t=titanic_data
+t[t['Survived']==1]['Fare'].mean()
+t[t['Survived']==0]['Fare'].mean()
+
+
