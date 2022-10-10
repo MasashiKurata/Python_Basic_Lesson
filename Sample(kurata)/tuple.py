@@ -1,4 +1,4 @@
-
+# coding: cp932
 
 t = ('aaa','bbb','ccc')
 

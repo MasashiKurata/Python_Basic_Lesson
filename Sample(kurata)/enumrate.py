@@ -1,17 +1,17 @@
-#for i in range(2,110,2):
+ï»¿#for i in range(2,110,2):
 #    print(i,end=',')
 
-#num‚ğŒ©‚ê‚Î‰½‰ñfor•¶‚ª‰ñ‚Á‚Ä‚¢‚é‚©Šm”F‚Å‚«‚é
+#numã‚’è¦‹ã‚Œã°ä½•å›foræ–‡ãŒå›ã£ã¦ã„ã‚‹ã‹ç¢ºèªã§ãã‚‹
 for num,i in enumerate(range(2,110,2)):
     print(num,i)
 
-#ˆÈ‰º‚Å‚à“¯‚¶(CŒ¾Œê•—)
+#ä»¥ä¸‹ã§ã‚‚åŒã˜(Cè¨€èªé¢¨)
 num=0
 for i in range(2,110,2):
     print(num,i)
     num +=1
 
-# Ql:CŒ¾Œê‚Ìê‡
+# å‚è€ƒ:Cè¨€èªã®å ´åˆ
 #
 ##include <stdio.h>
 #int num=0
@@ -20,7 +20,7 @@ for i in range(2,110,2):
 #    num++;    
 #}
 
-#Ql:«‘‚©‚ç‚Ì’læ‚èo‚µ
+#å‚è€ƒ:è¾æ›¸ã‹ã‚‰ã®å€¤å–ã‚Šå‡ºã—
 kakaku={'apple':100,'banana':110,'orange':150}
 for (fruit,price) in enumerate(kakaku.items()):
     print(fruit,price)

@@ -1,10 +1,10 @@
-
+ï»¿
 i=0
 while i<10:
     print(i)
     i = i+1
 
-# break•¶ 5‚Ü‚ÅŒJ‚è•Ô‚µ‚½‚¢ê‡@slide:101
+# breakæ–‡ 5ã¾ã§ç¹°ã‚Šè¿”ã—ãŸã„å ´åˆã€€slide:101
 i=0
 while i<10:
     print(i)
@@ -12,18 +12,18 @@ while i<10:
     if i>5:
         break
 
-# continue 5‰ñ–ÚˆÈ~‚ÍA"|"‚ª•\¦‚³‚ê‚È‚¢ slide:103
+# continue 5å›ç›®ä»¥é™ã¯ã€"|"ãŒè¡¨ç¤ºã•ã‚Œãªã„ slide:103
 i=0
 while i<10:
     print(i,end=' ')
     i=i+1
     if i>5:
         continue
-    print("|",end=' ') #5‰ñ–ÚˆÈ~‚ÍA‚±‚Ìs‚ªÀs‚³‚ê‚È‚¢
+    print("|",end=' ') #5å›ç›®ä»¥é™ã¯ã€ã“ã®è¡ŒãŒå®Ÿè¡Œã•ã‚Œãªã„
 
 # for. while slide:104
-i=0 #‚±‚Á‚¿‚Ìê‡‚ÍAbreak‚Å~‚Ü‚é
-#i=10 #‚±‚Á‚¿‚Ìê‡‚ÍAbreak‚Å~‚Ü‚ç‚È‚¢
+i=0 #ã“ã£ã¡ã®å ´åˆã¯ã€breakã§æ­¢ã¾ã‚‹
+#i=10 #ã“ã£ã¡ã®å ´åˆã¯ã€breakã§æ­¢ã¾ã‚‰ãªã„
 while i<10:
     i=i+1
     print(i,end=' ')

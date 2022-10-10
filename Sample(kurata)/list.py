@@ -1,35 +1,35 @@
-# slide 46
+ï»¿# slide 46
 menu = ['soup','rice','cake']
 menu
 
-#---- listQl ----
+#---- listå‚è€ƒ ----
 
 tmp_list = []
 tmp_list = [4,2,3,1]
 
 
-#list‚É‚Í‚È‚ñ‚Å‚à‘ã“ü‚Å‚«‚é
-# (1)•¶š—ñ‚Æ”’l‚ª¬İ‚µ‚Ä‚àOK
+#listã«ã¯ãªã‚“ã§ã‚‚ä»£å…¥ã§ãã‚‹
+# (1)æ–‡å­—åˆ—ã¨æ•°å€¤ãŒæ··åœ¨ã—ã¦ã‚‚OK
 tmp_list2 = ['a',10,'abc',2.34]
 
-# (2)list‚Ì’†‚Élist‚ğ‘ã“ü‚·‚é
+# (2)listã®ä¸­ã«listã‚’ä»£å…¥ã™ã‚‹
 tmp_list3 = [tmp_list,tmp_list2]
 print(tmp_list3)
-print(tmp_list3[1][2])#2‚Â–Ú‚ÌƒŠƒXƒg‚Ì3‚Â–Ú‚ğQÆ
+print(tmp_list3[1][2])#2ã¤ç›®ã®ãƒªã‚¹ãƒˆã®3ã¤ç›®ã‚’å‚ç…§
 
-#‰—p:rangeŒ^‚ğlistŒ^‚É•ÏŠ·
+#å¿œç”¨:rangeå‹ã‚’listå‹ã«å¤‰æ›
 tmp_list4 = list(range(1,11))
 tmp_list4
 
-#‰—p:list‚Ìƒ\[ƒg
+#å¿œç”¨:listã®ã‚½ãƒ¼ãƒˆ
 tmp_list.sort()
 print(tmp_list)
 
-#‰—p:“à•ï•\‹L
+#å¿œç”¨:å†…åŒ…è¡¨è¨˜
 tmp=[]
 for i in tmp_list2:
     tmp.append(i)
 print(tmp)
 
-tmp=[i for i in tmp_list2] #1s‚Å‚©‚¯‚Ä‚‘¬
+tmp=[i for i in tmp_list2] #1è¡Œã§ã‹ã‘ã¦é«˜é€Ÿ
 print(tmp)

@@ -1,16 +1,16 @@
-for i in [1,2,3,4,5]:
+ï»¿for i in [1,2,3,4,5]:
     print(i)
 
-# list‚ğg‚¤
+# listã‚’ä½¿ã†
 listA = [6,7,8,9,10]
 for i in listA:
     print(i)
 
-# rangeŠÖ”‚ğg‚¤
+# rangeé–¢æ•°ã‚’ä½¿ã†
 for i in range(1,10):
     print(i)
 
-# tuple‚ğg‚¤
+# tupleã‚’ä½¿ã†
 tupleA=(1,2,3,4,5)
 for i in tupleA:
     print(i)

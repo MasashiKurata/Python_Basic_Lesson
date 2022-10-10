@@ -1,15 +1,15 @@
-fruits=['apple','banana','orange']
+﻿fruits=['apple','banana','orange']
 prices=(100,198,80)
 
 type(fruits)
 type(prices)
 
-#tuple->list�ւ̕ϊ�
+#tuple->listへの変換
 prices = list(prices)
 type(prices)
 prices
 
-#list->tuple�ւ̕ϊ�
+#list->tupleへの変換
 fruits=tuple(fruits)
 type(fruits)
 fruits

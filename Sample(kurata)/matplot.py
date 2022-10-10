@@ -1,16 +1,16 @@
-#–‘O‚Ématplotlib‚ğŠÂ‹«‚Éinstall‚·‚é‚±‚Æ‚ª•K—v
+ï»¿#äº‹å‰ã«matplotlibã‚’ç’°å¢ƒã«installã™ã‚‹ã“ã¨ãŒå¿…è¦
 import matplotlib.pyplot as plt
 import math
 import numpy as np
 
-#y=x^2‚ÌƒOƒ‰ƒt
+#y=x^2ã®ã‚°ãƒ©ãƒ•
 x=[-9,-8,-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8,9]
 y=[81,64,49,36,25,16,9,4,1,0,1,4,9,16,25,36,49,64,81]
 plt.plot(x,y)
 plt.grid(1)
 plt.show()
 
-#Ql:“¯‚¶‚±‚Æ‚ğ‚à‚Á‚ÆŠÈ’P‚É
+#å‚è€ƒ:åŒã˜ã“ã¨ã‚’ã‚‚ã£ã¨ç°¡å˜ã«
 x=[]
 y=[]
 x=np.arange(-9,10,1)

@@ -1,9 +1,9 @@
-# ƒtƒ@ƒCƒ‹‚ðopen‚µ‚Ä•¶Žš‚ð‘‚«ž‚Þ
+ï»¿# ãƒ•ã‚¡ã‚¤ãƒ«ã‚’openã—ã¦æ–‡å­—ã‚’æ›¸ãè¾¼ã‚€
 file = open('mail.txt','w',encoding='utf-8')
-file.write("Hello!") #‘‚«ž‚ñ‚¾•¶Žš”‚ª–ß‚è’l
+file.write("Hello!") #æ›¸ãè¾¼ã‚“ã æ–‡å­—æ•°ãŒæˆ»ã‚Šå€¤
 file.close()
 
-#ƒtƒ@ƒCƒ‹‚ðopen‚µ‚Ä•¶Žš‚ð“Ç‚Ýž‚Þ
+#ãƒ•ã‚¡ã‚¤ãƒ«ã‚’openã—ã¦æ–‡å­—ã‚’èª­ã¿è¾¼ã‚€
 file=open('mail.txt','r',encoding='utf-8')
 file.read()
 file.close()

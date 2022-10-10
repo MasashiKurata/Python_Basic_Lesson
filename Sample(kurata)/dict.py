@@ -1,55 +1,55 @@
-#-----------------------------------------------------------------
-#«‘‚Í "Ši”[‚³‚ê‚Ä‚¢‚éƒf[ƒ^‚É–¼‘O‚ğ•t‚¯‚é‚±‚Æ‚Åˆµ‚¢‚ğ—eˆÕ‚É‚·‚é"
+ï»¿#-----------------------------------------------------------------
+#è¾æ›¸ã¯ "æ ¼ç´ã•ã‚Œã¦ã„ã‚‹ãƒ‡ãƒ¼ã‚¿ã«åå‰ã‚’ä»˜ã‘ã‚‹ã“ã¨ã§æ‰±ã„ã‚’å®¹æ˜“ã«ã™ã‚‹"
 #-----------------------------------------------------------------
 
-#«‘(dict)‚Ìì¬ 'key:value'
+#è¾æ›¸(dict)ã®ä½œæˆ 'key:value'
 adrs = {'yamada': 'tokyo', 'kurata': 'saitama', 'saito': 'gunma'}
 
-#Œ^
+#å‹
 print(type(adrs))
 
-#key‚Ì•\¦
+#keyã®è¡¨ç¤º
 print(adrs.keys())
 
-#value‚Ì•\¦
+#valueã®è¡¨ç¤º
 print(adrs.values())
 
-#(key,value)‚Ì•\¦
+#(key,value)ã®è¡¨ç¤º
 print(adrs.items())
 
-#value‚ÌQÆ1
+#valueã®å‚ç…§1
 print(adrs['yamada'])
 print(adrs['kurata'])
 print(adrs['saito'])
 
-#value‚ÌQÆ2
+#valueã®å‚ç…§2
 for i in adrs:
     print(i,adrs[i])
 
 
-#value‚Ì•ÏX
+#valueã®å¤‰æ›´
 adrs['yamada']='shizuoka'
 print(adrs)
 
-#QlF«‘‚Ì’†‚É«‘‚ğì¬
+#å‚è€ƒï¼šè¾æ›¸ã®ä¸­ã«è¾æ›¸ã‚’ä½œæˆ
 books = {
     'title1':
     {
-        'author': '‚©‚í‚³‚« ‚µ‚ñ‚¶',
-        'contents': 'ƒ^ƒvƒ‹',
+        'author': 'ã‹ã‚ã•ã ã—ã‚“ã˜',
+        'contents': 'ã‚¿ãƒ—ãƒ«',
     },
     'title2':
     {
-        'author': 'ˆêF ­•F',
-        'contents': 'Deep LearningƒRƒ~ƒ…ƒjƒeƒB[cc',
+        'author': 'ä¸€è‰² æ”¿å½¦',
+        'contents': 'Deep Learningã‚³ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£ãƒ¼â€¦â€¦',
     },
     'title3':
     {
-        'author': '‚©‚í‚³‚« ‚µ‚ñ‚¶',
-        'contents': 'ƒŠƒXƒg‚Ì‘€ì',
+        'author': 'ã‹ã‚ã•ã ã—ã‚“ã˜',
+        'contents': 'ãƒªã‚¹ãƒˆã®æ“ä½œ',
     }
 }
 
-#«‘‚Ì’†‚Ì«‘‚ÌQÆ
+#è¾æ›¸ã®ä¸­ã®è¾æ›¸ã®å‚ç…§
 print(books['title2']['author'])
 

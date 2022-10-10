@@ -1,6 +1,6 @@
-fruits=['apple','banana','orange']
+ï»¿fruits=['apple','banana','orange']
 prices=[100,198,80]
 
-#2‚Â‚ÌƒŠƒXƒg‚©‚çˆê‚Â‚¸‚Â‡”Ô‚É’l‚ğæ‚èo‚µ‚Ä•\¦‚·‚é
+#2ã¤ã®ãƒªã‚¹ãƒˆã‹ã‚‰ä¸€ã¤ãšã¤é †ç•ªã«å€¤ã‚’å–ã‚Šå‡ºã—ã¦è¡¨ç¤ºã™ã‚‹
 for fruit, price in zip(fruits,prices):
     print(fruit,price)
