@@ -13,16 +13,19 @@ data.iloc[9:,1]='女'
 
 data1 = data
 
-fig, ex1 = plt.subplots(1,1,figsize=(6,4))  #グラフサイズ
+#fig, ex1 = plt.subplots(1,1,figsize=(6,4))  #グラフサイズ
+fig = plt.figure(figsize=(12,4))
+
+ex1 = fig.add_subplot(1,2,1)
 ex2 = ex1.twinx()
 
-colors=[('r' if i == '女' else 'b') for i in data.性別]
+colors=[('plum' if i == '女' else 'skyblue') for i in data.性別]
 
 
-ex1.bar(data.index, data['BMI'], color=colors,tick_label=data.名前)
-ex2.plot(data.index, data['身長'], color='g',marker=".",label='身長')
+ex1.bar(data.index, data['BMI'], color=colors,tick_label=data.index.values)
+ex2.plot(data.index, data['身長'], color='yellow',marker=".",label='身長')
 
-plt.title('BMIと身長',loc='left',color='g')
+plt.title('BMIと身長',loc='center')
 
 ex1.set_ylim(0,40)
 ex2.set_ylim(150,180)
@@ -30,16 +33,18 @@ handler1, label1 = ex1.get_legend_handles_labels()    #凡例表示準備
 handler2, label2 = ex2.get_legend_handles_labels()    #凡例表示準備
 ex1.legend(handler1+handler2,label1+label2,borderaxespad=0)  #凡例表示
 #plt.savefig('BMIと身長.png')
-fig.show()
+#plt.show()
+plt.grid()
 
 
-fig, ex1 = plt.subplots(1,1,figsize=(6,4))
+#fig, ex1 = plt.subplots(1,1,figsize=(6,4))
+ex1 = fig.add_subplot(1,2,2)
 ex2 = ex1.twinx()
 
-ex1.bar(data1.index, data1['BMI'], color=colors,tick_label=data.名前)
-ex2.plot(data1.index, data1['体重'], color='k',marker=".",label='体重')
-
-plt.title('BMIと体重',loc='left')
+#ex1.bar(data1.index, data1['BMI'], color=colors,tick_label=data.名前)
+ex1.bar(data1.index, data1['BMI'], color=colors,tick_label=data.index.values)
+ex2.plot(data1.index, data1['体重'], color='yellow',marker=".",label='体重')
+plt.title('BMIと体重',loc='center')
 
 ex1.set_ylim(0,40)
 ex2.set_ylim(45,100)
@@ -47,5 +52,6 @@ handler1, label1 = ex1.get_legend_handles_labels()
 handler2, label2 = ex2.get_legend_handles_labels()
 ex1.legend(handler1+handler2,label1+label2,borderaxespad=0)
 #plt.savefig('BMIと体重.png')
-fig.show()
-print("ここにブレークポイントを設定してください")
+#fig.show()
+plt.grid()
+plt.show()
