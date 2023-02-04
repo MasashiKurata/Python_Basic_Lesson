@@ -5,8 +5,7 @@
     <ProjectGuid>bbf20bda-6194-4920-b991-d1d26914c0f3</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>Sample(kurata)\dataframe.py</StartupFile>
     <SearchPath>Sample(kurata)</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -48,6 +47,7 @@
     <Compile Include="Sample%28kurata%29\subplot.py" />
     <Compile Include="Sample%28kurata%29\tuple.py" />
     <Compile Include="Sample%28kurata%29\while.py" />
+    <Compile Include="Sample%28kurata%29\timer_.py" />
     <Compile Include="Sample%28kurata%29\zip.py" />
     <Compile Include="Sample%28kurata%29\_datetime.py" />
     <Compile Include="演習問題回答\answer01.py" />
