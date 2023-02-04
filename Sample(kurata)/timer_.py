@@ -12,10 +12,11 @@ root1.geometry("400x300")
 canvas=tkinter.Canvas(root1,width=w,heigh=h)
 canvas.pack()
 
-timer_cnt = 10 # 秒で指定する
+timer_cnt = 600 # 秒で指定する
 min_cnt = timer_cnt // 60
 sec_cnt = timer_cnt - 60 * min_cnt
 
+# down timer from timer_cnt to 0
 while True:
     timer_str = str(timer_cnt)
     min_cnt = timer_cnt // 60
@@ -34,8 +35,9 @@ while True:
     if timer_cnt ==0:
         break
 
+# up timer from 0 to 10
 timer_cnt = 0
-while True:
+for cnt in range(10):
     timer_str = str(timer_cnt)
     min_cnt = timer_cnt // 60
     sec_cnt = timer_cnt - 60*min_cnt
