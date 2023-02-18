@@ -20,7 +20,12 @@ data['身長'].sum()
 data['身長'].mean()
 data.describe()
 
-# loc,ilocの実演
+# loc,iloc
+# locを利用するとDataFrameからインデックス、列名を指定してデータを抽出でき、スライシングを使うことが可能。
+data.loc[0:10,"名前"]
+
+# ilocを利用するとDataFrameから行・列番号を指定してデータを抽出でき、スライシングを使うことが可能。
+data.iloc[2:5,0:3]
 
 # 170cm以上の人の名前　slide 146
 data[data['身長']>170]['名前']
