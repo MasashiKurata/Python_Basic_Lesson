@@ -37,24 +37,6 @@ data['性別']=0
 data_tmp = data.drop(index=1,inplace=False) #もとのデータを変更しない
 #dataとdata_tmpを比較する
 
-#-------------------------------------------------------------------------------------
-#ファイルから読み込む (2)
-titanic_data = pd.read_csv(r'titanic.csv')
 
-titanic_data.describe()
-
-titanic_data.columns
-titanic_data.count()
-
-titanic_data.dropna()
-
-titanic_data[titanic_data['Survived']==0]['Survived'].count()
-titanic_data[titanic_data['Survived']==1]['Survived'].count()
-
-titanic_data.describe()
-
-t=titanic_data
-t[t['Survived']==1]['Fare'].mean()
-t[t['Survived']==0]['Fare'].mean()
 
 
